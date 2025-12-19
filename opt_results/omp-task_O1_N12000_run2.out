@@ -1,0 +1,50 @@
+Sender: LSF System <lsfadmin@polus-c3-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 1501754: <# this file was automaticly created by mpisubmit.pl script for edu-cmc-skpod25-325-02 #;source /polusfs/setenv/setup.SMPI;#BSUB -n 1;#BSUB -W 00:20;#BSUB -o ../opt_results/omp-task_O1_N12000_run2.out;#BSUB -e env.%J.err;OMP_NUM_THREADS=8 mpiexec env OMP_NUM_THREADS=8 ../builds/gauss-omp-task_O1 12000 10> in cluster <MSUCluster> Done
+
+Job <# this file was automaticly created by mpisubmit.pl script for edu-cmc-skpod25-325-02 #;source /polusfs/setenv/setup.SMPI;#BSUB -n 1;#BSUB -W 00:20;#BSUB -o ../opt_results/omp-task_O1_N12000_run2.out;#BSUB -e env.%J.err;OMP_NUM_THREADS=8 mpiexec env OMP_NUM_THREADS=8 ../builds/gauss-omp-task_O1 12000 10> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skpod25-325-02> in cluster <MSUCluster> at Fri Dec 19 17:57:56 2025
+Job was executed on host(s) <polus-c3-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-cmc-skpod25-325-02> in cluster <MSUCluster> at Fri Dec 19 17:58:59 2025
+</home_edu/edu-cmc-skpod25-325/edu-cmc-skpod25-325-02> was used as the home directory.
+</home_edu/edu-cmc-skpod25-325/edu-cmc-skpod25-325-02/gauss/scripts> was used as the working directory.
+Started at Fri Dec 19 17:58:59 2025
+Terminated at Fri Dec 19 17:59:34 2025
+Results reported at Fri Dec 19 17:59:34 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+# this file was automaticly created by mpisubmit.pl script for edu-cmc-skpod25-325-02 #
+source /polusfs/setenv/setup.SMPI
+#BSUB -n 1
+#BSUB -W 00:20
+#BSUB -o ../opt_results/omp-task_O1_N12000_run2.out
+#BSUB -e env.%J.err
+OMP_NUM_THREADS=8 mpiexec env OMP_NUM_THREADS=8 ../builds/gauss-omp-task_O1 12000 10
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   207.02 sec.
+    Max Memory :                                 1119 MB
+    Average Memory :                             959.43 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              5
+    Max Threads :                                17
+    Run time :                                   35 sec.
+    Turnaround time :                            98 sec.
+
+The output (if any) follows:
+
+Time=32.2448
+X=(1, 1, 1, 1, 1, 1, 1, 1, 1, ...)
+
+
+PS:
+
+Read file <env.1501754.err> for stderr output of this job.
+

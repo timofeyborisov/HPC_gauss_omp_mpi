@@ -1,0 +1,104 @@
+Sender: LSF System <lsfadmin@polus-c2-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 1502867: <# this file was automaticly created by mpisubmit.pl script for edu-cmc-skpod25-325-02 #;source /polusfs/setenv/setup.SMPI;#BSUB -n 4;#BSUB -W 00:20;#BSUB -o ../scaling_results/mpi_N16000_p4_run3.out;#BSUB -e gauss-mpi_O2.%J.err;OMP_NUM_THREADS=1 mpiexec ../builds/gauss-mpi_O2 16000 10> in cluster <MSUCluster> Exited
+
+Job <# this file was automaticly created by mpisubmit.pl script for edu-cmc-skpod25-325-02 #;source /polusfs/setenv/setup.SMPI;#BSUB -n 4;#BSUB -W 00:20;#BSUB -o ../scaling_results/mpi_N16000_p4_run3.out;#BSUB -e gauss-mpi_O2.%J.err;OMP_NUM_THREADS=1 mpiexec ../builds/gauss-mpi_O2 16000 10> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skpod25-325-02> in cluster <MSUCluster> at Fri Dec 19 18:20:02 2025
+Job was executed on host(s) <3*polus-c2-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-cmc-skpod25-325-02> in cluster <MSUCluster> at Fri Dec 19 18:33:38 2025
+                            <1*polus-c4-ib.bmc.hpc.cs.msu.ru>
+</home_edu/edu-cmc-skpod25-325/edu-cmc-skpod25-325-02> was used as the home directory.
+</home_edu/edu-cmc-skpod25-325/edu-cmc-skpod25-325-02/gauss/scripts> was used as the working directory.
+Started at Fri Dec 19 18:33:38 2025
+Terminated at Fri Dec 19 18:33:47 2025
+Results reported at Fri Dec 19 18:33:47 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+# this file was automaticly created by mpisubmit.pl script for edu-cmc-skpod25-325-02 #
+source /polusfs/setenv/setup.SMPI
+#BSUB -n 4
+#BSUB -W 00:20
+#BSUB -o ../scaling_results/mpi_N16000_p4_run3.out
+#BSUB -e gauss-mpi_O2.%J.err
+OMP_NUM_THREADS=1 mpiexec ../builds/gauss-mpi_O2 16000 10
+
+------------------------------------------------------------
+
+Exited with exit code 139.
+
+Resource usage summary:
+
+    CPU time :                                   20.00 sec.
+    Max Memory :                                 1640 MB
+    Average Memory :                             1230.25 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              7
+    Max Threads :                                18
+    Run time :                                   10 sec.
+    Turnaround time :                            825 sec.
+
+The output (if any) follows:
+
+--------------------------------------------------------------------------
+mpiexec noticed that process rank 3 with PID 38242 on node polus-c4-ib exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+
+
+PS:
+
+Read file <gauss-mpi_O2.1502867.err> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@polus-c4-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 1504539: <# this file was automaticly created by mpisubmit.pl script for edu-cmc-skpod25-325-02 #;source /polusfs/setenv/setup.SMPI;#BSUB -n 4;#BSUB -W 00:20;#BSUB -o ../scaling_results/mpi_N16000_p4_run3.out;#BSUB -e gauss-mpi_O2.%J.err;OMP_NUM_THREADS=1 mpiexec ../builds/gauss-mpi_O2 16000 10> in cluster <MSUCluster> Exited
+
+Job <# this file was automaticly created by mpisubmit.pl script for edu-cmc-skpod25-325-02 #;source /polusfs/setenv/setup.SMPI;#BSUB -n 4;#BSUB -W 00:20;#BSUB -o ../scaling_results/mpi_N16000_p4_run3.out;#BSUB -e gauss-mpi_O2.%J.err;OMP_NUM_THREADS=1 mpiexec ../builds/gauss-mpi_O2 16000 10> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skpod25-325-02> in cluster <MSUCluster> at Fri Dec 19 20:15:01 2025
+Job was executed on host(s) <1*polus-c4-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-cmc-skpod25-325-02> in cluster <MSUCluster> at Fri Dec 19 20:19:57 2025
+                            <3*polus-c2-ib.bmc.hpc.cs.msu.ru>
+</home_edu/edu-cmc-skpod25-325/edu-cmc-skpod25-325-02> was used as the home directory.
+</home_edu/edu-cmc-skpod25-325/edu-cmc-skpod25-325-02/gauss/scripts> was used as the working directory.
+Started at Fri Dec 19 20:19:57 2025
+Terminated at Fri Dec 19 20:20:04 2025
+Results reported at Fri Dec 19 20:20:04 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+# this file was automaticly created by mpisubmit.pl script for edu-cmc-skpod25-325-02 #
+source /polusfs/setenv/setup.SMPI
+#BSUB -n 4
+#BSUB -W 00:20
+#BSUB -o ../scaling_results/mpi_N16000_p4_run3.out
+#BSUB -e gauss-mpi_O2.%J.err
+OMP_NUM_THREADS=1 mpiexec ../builds/gauss-mpi_O2 16000 10
+
+------------------------------------------------------------
+
+Exited with exit code 139.
+
+Resource usage summary:
+
+    CPU time :                                   6.00 sec.
+    Max Memory :                                 559 MB
+    Average Memory :                             373.00 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              5
+    Max Threads :                                12
+    Run time :                                   7 sec.
+    Turnaround time :                            303 sec.
+
+The output (if any) follows:
+
+--------------------------------------------------------------------------
+mpiexec noticed that process rank 3 with PID 115210 on node polus-c2-ib exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+
+
+PS:
+
+Read file <gauss-mpi_O2.1504539.err> for stderr output of this job.
+

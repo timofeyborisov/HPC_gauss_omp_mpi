@@ -1,0 +1,98 @@
+Sender: LSF System <lsfadmin@polus-c4-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 1502838: <# this file was automaticly created by mpisubmit.pl script for edu-cmc-skpod25-325-02 #;source /polusfs/setenv/setup.SMPI;#BSUB -n 1;#BSUB -W 00:20;#BSUB -o ../scaling_results/mpi_N12000_p1_run1.out;#BSUB -e gauss-mpi_O2.%J.err;OMP_NUM_THREADS=1 mpiexec ../builds/gauss-mpi_O2 12000 10> in cluster <MSUCluster> Done
+
+Job <# this file was automaticly created by mpisubmit.pl script for edu-cmc-skpod25-325-02 #;source /polusfs/setenv/setup.SMPI;#BSUB -n 1;#BSUB -W 00:20;#BSUB -o ../scaling_results/mpi_N12000_p1_run1.out;#BSUB -e gauss-mpi_O2.%J.err;OMP_NUM_THREADS=1 mpiexec ../builds/gauss-mpi_O2 12000 10> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skpod25-325-02> in cluster <MSUCluster> at Fri Dec 19 18:20:01 2025
+Job was executed on host(s) <polus-c4-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-cmc-skpod25-325-02> in cluster <MSUCluster> at Fri Dec 19 18:32:02 2025
+</home_edu/edu-cmc-skpod25-325/edu-cmc-skpod25-325-02> was used as the home directory.
+</home_edu/edu-cmc-skpod25-325/edu-cmc-skpod25-325-02/gauss/scripts> was used as the working directory.
+Started at Fri Dec 19 18:32:02 2025
+Terminated at Fri Dec 19 18:32:13 2025
+Results reported at Fri Dec 19 18:32:13 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+# this file was automaticly created by mpisubmit.pl script for edu-cmc-skpod25-325-02 #
+source /polusfs/setenv/setup.SMPI
+#BSUB -n 1
+#BSUB -W 00:20
+#BSUB -o ../scaling_results/mpi_N12000_p1_run1.out
+#BSUB -e gauss-mpi_O2.%J.err
+OMP_NUM_THREADS=1 mpiexec ../builds/gauss-mpi_O2 12000 10
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   8.53 sec.
+    Max Memory :                                 1168 MB
+    Average Memory :                             780.00 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              5
+    Max Threads :                                12
+    Run time :                                   10 sec.
+    Turnaround time :                            732 sec.
+
+The output (if any) follows:
+
+Time=7.88449
+
+
+PS:
+
+Read file <gauss-mpi_O2.1502838.err> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@polus-c4-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 1504509: <# this file was automaticly created by mpisubmit.pl script for edu-cmc-skpod25-325-02 #;source /polusfs/setenv/setup.SMPI;#BSUB -n 1;#BSUB -W 00:20;#BSUB -o ../scaling_results/mpi_N12000_p1_run1.out;#BSUB -e gauss-mpi_O2.%J.err;OMP_NUM_THREADS=1 mpiexec ../builds/gauss-mpi_O2 12000 10> in cluster <MSUCluster> Done
+
+Job <# this file was automaticly created by mpisubmit.pl script for edu-cmc-skpod25-325-02 #;source /polusfs/setenv/setup.SMPI;#BSUB -n 1;#BSUB -W 00:20;#BSUB -o ../scaling_results/mpi_N12000_p1_run1.out;#BSUB -e gauss-mpi_O2.%J.err;OMP_NUM_THREADS=1 mpiexec ../builds/gauss-mpi_O2 12000 10> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skpod25-325-02> in cluster <MSUCluster> at Fri Dec 19 20:14:40 2025
+Job was executed on host(s) <polus-c4-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-cmc-skpod25-325-02> in cluster <MSUCluster> at Fri Dec 19 20:17:15 2025
+</home_edu/edu-cmc-skpod25-325/edu-cmc-skpod25-325-02> was used as the home directory.
+</home_edu/edu-cmc-skpod25-325/edu-cmc-skpod25-325-02/gauss/scripts> was used as the working directory.
+Started at Fri Dec 19 20:17:15 2025
+Terminated at Fri Dec 19 20:17:24 2025
+Results reported at Fri Dec 19 20:17:24 2025
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+# this file was automaticly created by mpisubmit.pl script for edu-cmc-skpod25-325-02 #
+source /polusfs/setenv/setup.SMPI
+#BSUB -n 1
+#BSUB -W 00:20
+#BSUB -o ../scaling_results/mpi_N12000_p1_run1.out
+#BSUB -e gauss-mpi_O2.%J.err
+OMP_NUM_THREADS=1 mpiexec ../builds/gauss-mpi_O2 12000 10
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   7.55 sec.
+    Max Memory :                                 1168 MB
+    Average Memory :                             779.67 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              5
+    Max Threads :                                12
+    Run time :                                   9 sec.
+    Turnaround time :                            164 sec.
+
+The output (if any) follows:
+
+Time=7.11776
+
+
+PS:
+
+Read file <gauss-mpi_O2.1504509.err> for stderr output of this job.
+
