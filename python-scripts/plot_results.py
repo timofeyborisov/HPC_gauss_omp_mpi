@@ -18,6 +18,39 @@ def load_scaling_data():
     except FileNotFoundError:
         print("Error: scaling_results.csv not found")
         return None
+    
+def plot_speedup(df_scaling):
+    if df_scaling is None:
+        return
+    
+    for prog in ['omp-for', 'omp-task', 'mpi']:
+        plt.figure(figsize=(12, 8))
+        data_prog = df_scaling[df_scaling['type'] == prog]
+        
+        if data_prog.empty:
+            plt.close()
+            continue
+        
+        sizes = sorted(data_prog['N'].unique())
+        has_data = False
+        
+        for n in sizes:
+            data_n = data_prog[data_prog['N'] == n].sort_values('p')
+            if not data_n.empty:
+                time_1 = data_n[data_n['p'] == 1]['time'].values
+                if len(time_1) > 0:
+                    speedup = time_1[0] / data_n['time'].values
+                    plt.plot(data_n['p'], speedup, marker='o', linewidth=2, label=f'N={n}')
+                    has_data = True
+        
+        if has_data:
+            plt.title(f'{prog} - Speedup')
+            plt.xlabel('Threads/Processes')
+            plt.ylabel('Speedup')
+            plt.grid(True, alpha=0.3)
+            plt.legend()
+            plt.savefig(f'{prog}_speedup.png', dpi=150, bbox_inches='tight')
+        plt.close()
 
 def plot_optimizations(df_opt):
     if df_opt is None:
@@ -133,6 +166,7 @@ def main():
     if df_scaling is not None:
         plot_scaling_2d(df_scaling)
         plot_scaling_3d(df_scaling)
+        plot_speedup(df_scaling)
     
     print("All plots saved")
 
